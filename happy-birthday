@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Birthday, my angel 🎂</title>
+
+  <!-- Social preview (optional; works best once deployed on GitHub Pages) -->
+  <meta property="og:title" content="Happy Birthday, my angel" />
+  <meta property="og:description" content="A little surprise for you. ❤️" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="photo.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <style>
+    :root { --card-w: min(900px, 94vw); }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 20% 10%, #ffe8ef 0, #fff 60%), linear-gradient(180deg, #fff, #ffeef5);
+      color: #222;
+      display: grid;
+      place-items: center;
+      min-height: 100dvh;
+      padding: 28px 16px;
+    }
+    .card {
+      width: var(--card-w);
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px
